@@ -1,0 +1,21 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.button {
+	-fx-background-radius: 30px;
+	-fx-effect: dropshadow(three-pass-box, rgb(0,0,0,0.6), 1,0.0,0,1);
+}
+
+.button:pressed {
+	-fx-background-color: linear-gradient(#eeeeee, #dddddd); 
+	-fx-effect: dropshadow(three-pass-box, rgb(0, 0, 0, 0.6), 3, 0.0, 0, 1);
+}
+
+.calc {
+	-fx-background-color: linear-gradient(#FF9800, #FFA726);
+}
+
+/*
+.top {
+	-fx-background-color: linear-gradient(#BDBDBD, #E0E0E0);
+}
+*/
